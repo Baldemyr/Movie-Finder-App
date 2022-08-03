@@ -17,12 +17,7 @@
 * JWT
 * Heroku
 
-## Installation
-To install app `npm run setup`  
-Run app with `npm run dev`
 
-## Screenshot
-<img width="933" alt="image" src="https://user-images.githubusercontent.com/104780360/182725714-17085f12-de9d-4427-a4ef-67c8ca107fa4.png">
 
 
 
