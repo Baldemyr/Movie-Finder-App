@@ -17,7 +17,7 @@ type User {
     movieCount: Int
     savedMovie: [Movie]
 }
-type Book {
+type Movie {
     movieId: ID!
     authors: [String]
     description: String
@@ -25,7 +25,7 @@ type Book {
     link: String
     title: String!
   }
-  input BookInput {
+  input MovieInput {
     authors: [String]
     description: String!
     movieId: String!
