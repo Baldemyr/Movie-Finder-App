@@ -13,11 +13,10 @@
 
 ## Technolgies
 * MongoDB, Mongoose
-* IMDB API
+* OMDB API
 * Express.js
 * Node.js
 * React.js
-* Stripe
 * GraphQL
 * JWT
 * Heroku

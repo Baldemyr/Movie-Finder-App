@@ -41,6 +41,7 @@
     "mime-types": "^2.1.35",
     "ms": "^2.0.0",
     "negotiator": "^0.6.3",
+    "npm-watch": "^0.11.0",
     "object-inspect": "^1.12.2",
     "on-finished": "^2.4.1",
     "parseurl": "^1.3.3",
@@ -64,11 +65,11 @@
     "vary": "^1.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js",
-    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "cd server && npm start",
+    "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
+    "heroku-postbuild": "cd client && npm run build"
   },
   "repository": {
     "type": "git",
