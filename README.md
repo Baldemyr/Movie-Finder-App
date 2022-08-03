@@ -1,4 +1,4 @@
-# Movie-Finder-App
+# Movie-Finder-App(Movveio)
 
 ## User Story
 ```
@@ -13,14 +13,13 @@
 
 ## Technolgies
 * MongoDB, Mongoose
-* IMDB API
 * Express.js
 * Node.js
 * React.js
-* Stripe
-* GraphQL
 * JWT
 * Heroku
+
+
 
 ## Developers
 Andrew Cryer
