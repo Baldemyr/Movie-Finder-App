@@ -18,7 +18,12 @@
 * Heroku
 
 
+## Screennshots
+<img width="942" alt="image" src="https://user-images.githubusercontent.com/104780360/182727145-19c017f1-fba3-44d8-971f-f7314ae18b84.png">
 
+## Installation
+Install App `npm run setup`
+Run App `npm run dev`
 
 
 
