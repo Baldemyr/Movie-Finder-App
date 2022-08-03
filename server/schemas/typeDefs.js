@@ -8,7 +8,7 @@ type Mutation {
     login(email: String!, password: String!): Auth
     addUser(username: String!, email: String!, password: String!): Auth
     saveMovie(movieData: MovieInput!): User
-    removeBook(movieId: ID!): User
+    removeMovie(movieId: ID!): User
 }
 type User {
     _id: ID!
