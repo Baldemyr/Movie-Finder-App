@@ -50,6 +50,7 @@
     "qs": "^6.10.3",
     "range-parser": "^1.2.1",
     "raw-body": "^2.5.1",
+    "react-moment": "^1.1.2",
     "react-router-dom": "^6.3.0",
     "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
